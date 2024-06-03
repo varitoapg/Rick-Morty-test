@@ -28,7 +28,7 @@ export type ExtendedCharacter = BasicCharacter & {
   origin: string;
 };
 
-export type ApiCharacter = ExtendedCharacter & {
+export type ApiCharacter = Omit<ExtendedCharacter, "origin" | "location"> & {
   origin: Origin;
   location: Origin;
   image: string;
