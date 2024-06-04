@@ -2,8 +2,8 @@ import { useState } from "react";
 import { BasicCharacter } from "../../types/types";
 import { faEdit } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { changeColourTextByLocation } from "../../utils/uiUtils/changeColourTextByLocation";
-import { changeBackgroundByStatus } from "../../utils/uiUtils/changeBackgroundByStatus";
+import { changeColourTextByLocation } from "../../utils/uiUtils/changeColourTextByLocation/changeColourTextByLocation";
+import { changeBackgroundByStatus } from "../../utils/uiUtils/changeBackgroundByStatus.test/changeBackgroundByStatus";
 import { Button } from "../common/Button/Button";
 import { EditCharacterModal } from "../EditCharacterModal/EditCharacterModal";
 
