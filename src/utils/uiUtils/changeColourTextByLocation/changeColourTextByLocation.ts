@@ -1,4 +1,4 @@
-import { characterTextColors } from "./characterStyles";
+import { characterTextColors } from "../characterStyles";
 
 export const changeColourTextByLocation = (
   status: string,

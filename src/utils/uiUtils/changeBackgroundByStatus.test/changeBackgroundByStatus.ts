@@ -1,4 +1,4 @@
-import { characterBackgroundColors } from "./characterStyles";
+import { characterBackgroundColors } from "../characterStyles";
 
 export const changeBackgroundByStatus = (status: string, location: string) => {
   return status === "Dead"
