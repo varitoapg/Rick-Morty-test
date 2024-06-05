@@ -8,11 +8,11 @@ export const apiCharacterMocked: ApiCharacter = {
   type: "",
   gender: "Male",
   origin: {
-    name: "Earth",
+    name: "Earth-origin",
     url: "https://rickandmortyapi.com/api/location/1",
   },
   location: {
-    name: "Earth",
+    name: "Earth-location",
     url: "https://rickandmortyapi.com/api/location/20",
   },
   image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
@@ -31,14 +31,14 @@ export const apiCharactersMocked: ApiCharacter[] = [
     name: "Morty Smith-test",
     status: "Alive",
     species: "Human",
-    type: "",
+    type: "Type",
     gender: "Male",
     origin: {
-      name: "Earth",
+      name: "Earth-origin",
       url: "https://rickandmortyapi.com/api/location/1",
     },
     location: {
-      name: "Earth",
+      name: "Earth-location",
       url: "https://rickandmortyapi.com/api/location/20",
     },
     image: "https://rickandmortyapi.com/api/character/avatar/2.jpeg",
